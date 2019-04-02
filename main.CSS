@@ -36,6 +36,16 @@
   width: 40%;
 }
 
+/*Buttons on the top */
+.bg {
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+}
+
 /* Make the image responsive */
 .container img {
   width: 100%;
