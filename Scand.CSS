@@ -2,10 +2,6 @@ body {
   background: url(norrsken_RBY.jpg) no-repeat;
   background-size: 100%;
 }
-body 2 {
-  background: url(greece.jpg) no-repeat;
-  background-size: 100%;
-}
 
 .centered {
   position: absolute;
