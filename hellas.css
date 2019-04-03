@@ -40,9 +40,15 @@ body {
     margin-top: 200px; /* Heigth of header and menu */
 
     height: 1000px;
-    background-color: blue;
+    background-color: white;
 }
 
 div {
     overflow: hidden;
+}
+
+p {
+  position: absolute;
+  top: 60%;
+  left: 50%;
 }
