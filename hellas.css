@@ -1,54 +1,7 @@
 body {
-  background: url(IMG_5007.jpg) no-repeat;
-  background-size: 100%;
+  padding-top: 5rem;
 }
-
-.centered {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 5em;
-}
-
-.menu {
-    position: fixed;
-    z-index: 1000000; /* highest z-index on page */
-
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100px;
-    background-color: red;
-}
-
-.headerimg {
-    position: fixed;
-    z-index: 0; /* Lowest z-index */
-
-    top: 100px;
-    left: 0;
-    right: 0;
-    height: 100px;
-    background-color: green;
-}
-
-.content {
-    position: relative;
-    z-index: 1000; /* Medium z-index */
-
-    margin-top: 200px; /* Heigth of header and menu */
-
-    height: 1000px;
-    background-color: white;
-}
-
-div {
-    overflow: hidden;
-}
-
-p {
-  position: absolute;
-  top: 60%;
-  left: 50%;
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
 }
