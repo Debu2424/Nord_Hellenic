@@ -1,13 +1,14 @@
+.color-1 {
+    color: #2e86c1;
+}
 
-.color-1 {color: #2e86c1;}
-
-  .centered {
+.centered {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 5em;
-  }
+}
 
   h1 {
     font-family: 'Indie Flower', cursive;
@@ -22,6 +23,12 @@
   padding: 5px;
 }
 
+.row {
+    width: 100vw;
+    padding: 0%;
+    margin: 0%;
+}
+
 /* Clear floats after image containers */
 .row::after {
   content: "";
@@ -31,10 +38,11 @@
 
 /* Container needed to position the button. Adjust the width as needed */
 .container {
-  position: relative;
-  float: left;
-  margin: 0 5%;
-  width: 40%;
+    position: relative;
+    float: left;
+    width: 40%;
+    border-radius: 5px;
+    padding: 1% 5%;
 }
 
 /*Buttons on the top */
@@ -74,14 +82,27 @@
 }
 
 
+/*-------------CSS for images and relatable stuff----------------*/
+
 img{
 	width:100%;
 	height:auto;
 }
+
 .img-group{
+    width: 100vw;
+    height: 30vh;
 	display:flex;
+	flex-direction: row;
+	align-items: center;
 }
 
+/*.img-conatiner {
+    width: 14vw;
+    margin: 0%;
+}*/
+
+/*-------------------------------------------------------------*/
 
 
 /* Style inputs with type="text", select elements and textareas */
@@ -111,9 +132,3 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* Add a background color and some padding around the form */
-.container {
-  border-radius: 5px;
-  background-color: #9ad7ed;
-  padding: 20px;
-}

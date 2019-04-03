@@ -2,83 +2,95 @@
 <html>
 <head>
 
-  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="main.CSS">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.CSS">
 </head>
+
+
 <body>
+
+<!-- Intro section -->
 <div class="headerimg">
-  <img src="MainImage.jpg" alt="Cover Image" style="width:100%;">
+    <img src="MainImage.jpg" alt="Cover Image" style="width:100%;">
 </div>
 
 <div>
-  <h1>Welcome to our site! We decided to create this website to show where we come from and to share our cultures with you.
-  As two girls studying abroad we have always been curious about travelling and exploring various countries. Now we would
-  like to share our backgrounds with you so hope you enjoy!</h1>
+    <h1>
+        Welcome to our site! We decided to create this website to show where we come from and to share our cultures with you.
+        As two girls studying abroad we have always been curious about travelling and exploring various countries. Now we would
+        like to share our backgrounds with you so hope you enjoy!
+    </h1>
 </div>
+
 
 <div class="row">
-  <div class="container">
-    <img src="NorthernLights.jpg" alt="Northern Lights" style="width:100%">
-    <form action="file:///Users/Desiree/Documents/Coding_Course/Testing-Repository/NordHellenicScand.html">
-    <button class="btn">Scandinavia</button>
-  </form>
-  </div>
-  <div class="container">
-    <img src="GreeceBeach.jpg" alt="Greek Beach" style="width:100%">
-    <button class="btn">Hellas</button>
-  </div>
-  <br>
-
-<h2>Images will be shown below...blah...blah...blah...blah</h2>
-<br>
-<div style="width:100vw">
-  <div class="img-group">
-    <div class="img-container1">
-      <img src="Snow">
+    <div class="container">
+        <img src="NorthernLights.jpg" alt="Northern Lights" style="width:100%">
+        <form action="file:///Users/Desiree/Documents/Coding_Course/Testing-Repository/NordHellenicScand.html">
+            <button class="btn">Scandinavia</button>
+        </form>
     </div>
-    <div class="img-container2">
-      <img src="greece_mountain.jpg" height="100px">
+    <div class="container">
+        <img src="GreeceBeach.jpg" alt="Greek Beach" style="width:100%">
+        <button class="btn">Hellas</button>
     </div>
-    <div class="img-container3">
-      <img src="Scandinavia_colouredhouses.jpg" height="100px">
-    </div>
-    <div class="img-container4">
-      <img src="greece_building.jpg">
-    </div>
-    <div class="img-container5">
-      <img src="lapland.jpg">
-    </div>
-    <div class="img-container6">
-      <img src="greece_table.jpg">
-    </div>
-    <div class="img-container7">
-      <img src="Norwar_fjords.jpg">
-    </div>
-  </div>
 </div>
-<br>
+<div class="row">
+    <h2>
+        Images will be shown below...blah...blah...blah...blah
+    </h2>
+</div>
 
-  <div class="container">
-    <form action="action_page.php">
 
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<!--Here is the image row, it spans the entire width of the page-->
+<div class="img-group">
+    <div class="img-container">
+        <img src="Snow">
+    </div>
+    <div class="img-container">
+        <img src="greece_mountain.jpg">
+    </div>
+    <div class="img-container">
+        <img src="Scandinavia_colouredhouses.jpg">
+    </div>
+    <div class="img-container">
+        <img src="greece_building.jpg">
+    </div>
+    <div class="img-container">
+        <img src="lapland.jpg">
+    </div>
+    <div class="img-container">
+        <img src="greece_table.jpg">
+    </div>
+    <div class="img-container">
+        <img src="Norwar_fjords.jpg">
+    </div>
+</div>
 
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-      <label for="country">Country</label>
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-      <input type="submit" value="Submit">
-
-    </form>
-  </div>
+<!-- What happens here? -->
+<div class="row" style="width:100vw;">
+    <div class="container" style="background-color:#9ad7ed;">
+        <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">
+                    Australia
+                </option>
+                <option value="canada">
+                    Canada
+                </option>
+                <option value="usa">
+                    USA
+                </option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
 </body>
