@@ -7,7 +7,7 @@ body {
 }
 
 #myCarousel {
-    padding-top: 50px;
+    padding-top: 0px;
     height: 100vh;
     overflow: hidden;
 }
@@ -42,6 +42,12 @@ ol li {
   padding: 5px;
   margin-left: 35px;
   list-style-position: inside;
-  font-family: 'Courgette', cursive;
+  font-family: 'Overlock', cursive;
   font-size: 30px;
+}
+
+h3{
+  font-family: 'Courgette', cursive;
+  font-weight=bold;
+  text-align: center;
 }
