@@ -25,7 +25,15 @@ body {
   font-size: 10em;
 
 .text{
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  color: #2e86c1;
+}
 
+h2 {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  color: #2e86c1;
 }
 
 .list2{
