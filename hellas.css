@@ -7,6 +7,8 @@ body {
   text-align: center;
 }
 
+/*-------------------------------------------------------------*/
+
 /*Carousel*/
 #myCarousel {
     padding-top: 0px;
@@ -27,19 +29,31 @@ body {
   font-size: 10em;
 }
 
+/*-------------------------------------------------------------*/
+
+/*Title of page*/
 .text {
-  font-family: 'Indie Flower', cursive;
+  font-family: cursive;
   text-align: center;
   color: #2e86c1;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
+/*-------------------------------------------------------------*/
 
 h2 {
-  font-family: 'Indie Flower', cursive;
+  font-family: cursive;
   text-align: center;
   color: #2e86c1;
-  font-size: 50px;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
+/*-------------------------------------------------------------*/
+/*ordered list*/
 ol li {
   background: #e2faff;
   padding: 5px;
@@ -49,6 +63,8 @@ ol li {
   font-size: 25px;
 }
 
+/*-------------------------------------------------------------*/
+
 h3 {
   font-family: 'Courgette', cursive;
   font-weight= bold;
@@ -56,6 +72,7 @@ h3 {
   font-size: 35px;
 }
 
+/*-------------------------------------------------------------*/
 
 /*scroll to top botton */
 body {
