@@ -23,6 +23,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 10em;
+}
 
 .text{
   font-family: 'Indie Flower', cursive;
@@ -36,18 +37,11 @@ h2 {
   color: #2e86c1;
 }
 
-.ol {
-  font-style:italic;
-  font-family:Georgia, Times, serif;
-  font-size:50px;
-  color:#bfe1f1;
+ol li {
+  background: #e2faff;
+  padding: 5px;
+  margin-left: 35px;
+  list-style-position: inside;
+  font-family: 'Courgette', cursive;
+  font-size: 30px;
 }
-
-.ol li p {
-  padding:8px;
-  font-style:normal;
-  font-family:Arial;
-  font-size:13px;
-  color:#eee;
-  border-left: 1px;
-  solid #999; }
