@@ -33,10 +33,11 @@ body {
   color: #2e86c1;
 }
 
-h2 {
+h1 {
   font-family: 'Indie Flower', cursive;
   text-align: center;
   color: #2e86c1;
+  font-size: 50px;
 }
 
 ol li {
@@ -44,7 +45,40 @@ ol li {
   padding: 5px;
   margin-left: 35px;
   list-style-position: inside;
+  font-family: 'Overlock', cursive;
+  font-size: 25px;
+}
+
+h3 {
   font-family: 'Courgette', cursive;
-  font-size: 30px;
+  font-weight= bold;
+  text-align: center;
+  font-size: 35px;
+}
+
+/*scroll to top botton */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
 >>>>>>> 94c18a1fc7e217b18f1b6262433da33c71a7ee85

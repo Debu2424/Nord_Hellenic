@@ -40,17 +40,39 @@
         <p> Scandinavia is a term that covers the countries of Denmark, Norway, Sweden, Finland and Iceland. We will be covering just Norway, Sweden and Denmark.The capital of Norway is Oslo, the capital is Sweden is Stockholm and the capital of Denmark is Copenhagen.</p>
       </div>
 
-      <h2>Places to visit</h2>
+      <h1>Places to visit in:</h1>
 
       <div class="w3-container">
              <ol class="w3-u1 w3-border">
-                <li>IN OSLO<br>Vigeland Sculpture Park <br> Akershus Fortress <br> The Viking Ship Museum <br> Nordmarka</li>
+                <li>OSLO<br>Vigeland Sculpture Park<br>Akershus Fortress<br>The Viking Ship Museum<br>Nordmarka</li>
                 <br>
-                <li>IN STOCKHOLM<br> Gamla Stan <br> Vasa Museum <br> The Royal Palaces</li>
+                <li>STOCKHOLM<br>Gamla Stan<br>Vasa Museum<br>The Royal Palaces</li>
                 <br>
-                <li>IN COPENHAGEN<br> Kronborg Castle <br> Tivoli Gardens <br> Nyhavn <br> Strøget</li>
+                <li>COPENHAGEN<br>Kronborg Castle<br>Tivoli Gardens<br>Nyhavn<br>Strøget</li>
              </ol>
       </div>
+
+<!-- scroll to the top botton-->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+          } else {
+            document.getElementById("myBtn").style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
 
 
     </main> <!-- /.container -->
