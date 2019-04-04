@@ -13,6 +13,7 @@ body {
     overflow: hidden;
 }
 
+
 .carousel-inner {
     width: 100%;
     height: auto;
@@ -37,13 +38,17 @@ h1 {
   text-align: center;
   color: #2e86c1;
   font-size: 50px;
+  margin-top: 70px;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-family: 'Indie Flower', cursive;
   text-align: center;
   color: #2e86c1;
-  font-size: 30px;
+  font-size: 35px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 ol li {
