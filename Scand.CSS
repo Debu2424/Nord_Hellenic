@@ -7,7 +7,7 @@ body {
 }
 
 #myCarousel {
-    padding-top: 50px;
+    padding-top: 0px;
     height: 100vh;
     overflow: hidden;
 }
@@ -24,3 +24,27 @@ body {
   transform: translate(-50%, -50%);
   font-size: 10em;
 }
+<<<<<<< HEAD
+=======
+
+.text{
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  color: #2e86c1;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  color: #2e86c1;
+}
+
+ol li {
+  background: #e2faff;
+  padding: 5px;
+  margin-left: 35px;
+  list-style-position: inside;
+  font-family: 'Courgette', cursive;
+  font-size: 30px;
+}
+>>>>>>> 94c18a1fc7e217b18f1b6262433da33c71a7ee85
