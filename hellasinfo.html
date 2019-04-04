@@ -13,56 +13,56 @@
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 </head>
+
 <body>
 
-  <div id="myCarousel" class="carousel slide hidden-xs hidden-sm" data-ride="carousel" style="margin-bottom:-50px;">
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-          <div class="item active">
-              <img class="img-responsive" src="IMG_5007.jpg" alt="Hellas">
-          </div>
+<!--Slideshow of images-->
+<div id="myCarousel" class="carousel slide hidden-xs hidden-sm" data-ride="carousel" style="margin-bottom:-50px;">
+   <!-- Wrapper for slides -->
+ <div class="carousel-inner">
+   <div class="item active">
+     <img class="img-responsive" src="IMG_5007.jpg" alt="Hellas">
+   </div>
+   <div class="item">
+     <img class="img-responsive" src="IMG_E5381.jpg" alt="Hellas">
+   </div>
+   <div class="item">
+     <img class="img-responsive" src="IMG_E5496.jpg" alt="Hellas">
+   </div>
+ </div>
+</div>
 
-          <div class="item">
-              <img class="img-responsive" src="IMG_E5381.jpg" alt="Hellas">
-          </div>
-
-          <div class="item">
-              <img class="img-responsive" src="IMG_E5496.jpg" alt="Hellas">
-          </div>
-      </div>
-  </div>
-
-
+<!--Title of page-->
 <div> class="container">
   <div class="centered">Hellas</div>
 </div>
 
-    <main role="main" class="container">
+<!--Intro section-->
+<main role="main" class="container">
+  <div class="text">
+    <br>
+    <h1>Welcome to Hellas (Greece)!</h1>
+      <p>Greece is situated in Europe on the southern tip of the Balkan Peninsula, sharing borders with Albania, Former Yugoslav Republic of Macedonia, Bulgaria and Turkey. The capital of Greece is Athens, one of the world’s oldest cities, with its recorder history spanning over 3,400 years.</p>
+  </div>
 
-      <div class="text">
-        <br>
-        <h1>Welcome to Hellas (Greece)!</h1>
-        <p>Greece is situated in Europe on the southern tip of the Balkan Peninsula, sharing borders with Albania, Former Yugoslav Republic of Macedonia, Bulgaria and Turkey. The capital of Greece is Athens, one of the world’s oldest cities, with its recorder history spanning over 3,400 years.</p>
+<!--Main pieces of text with information-->
+<h2>Places to visit:</h2>
 
-      </div>
+<div class="w3-container">
+  <ol class="w3-u1 w3-border">
+    <li><h3>ACROPOLIS & ACROPOLIS MUSEUM</h3><br>Is the most striking and complete ancient Greek monumental complex still existing in our times. The word acropolis literally means in Greek "upper city.” The Parthenon and other main buildings on the Acropolis were built by Pericles in the fifth century BC as a monument to the cultural and political achievements of the inhabitants of Athens.</li>
+    <br>
+    <li><h3>PANATHENAIC STADIUM</h3><br>One of the main historic attractions of Athens, it is the only stadium in the world built entirely of marble. It hosted the opening and closing ceremonies of the first modern Olympics in 1896.</li>
+    <br>
+    <li><h3>MONASTIRAKI</h3><br>Is a flea market neighborhood in the old town of Athens, Greece, and is one of the principal shopping districts in Athens. The area is home to clothing boutiques, souvenir shops, and specialty stores, and is a major tourist attraction in Athens and Attica for bargain shopping.</li>
+    <br>
+    <li><h3>SYNTAGMAS SQUARE</h3><br>Is the central square of Athens. Syntagma Square is the most important square of modern Athens from both a historical and social point of view, at the heart of commercial activity and Greek politics.</li>
+  </ol>
+</div>
 
-      <h2>Places to visit:</h2>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-      <div class="w3-container">
-             <ol class="w3-u1 w3-border">
-                <li><h3>ACROPOLIS & ACROPOLIS MUSEUM</h3><br>Is the most striking and complete ancient Greek monumental complex still existing in our times. The word acropolis literally means in Greek "upper city.” The Parthenon and other main buildings on the Acropolis were built by Pericles in the fifth century BC as a monument to the cultural and political achievements of the inhabitants of Athens.</li>
-                <br>
-                <li><h3>PANATHENAIC STADIUM</h3><br>One of the main historic attractions of Athens, it is the only stadium in the world built entirely of marble. It hosted the opening and closing ceremonies of the first modern Olympics in 1896.</li>
-                <br>
-                <li><h3>MONASTIRAKI</h3><br>Is a flea market neighborhood in the old town of Athens, Greece, and is one of the principal shopping districts in Athens. The area is home to clothing boutiques, souvenir shops, and specialty stores, and is a major tourist attraction in Athens and Attica for bargain shopping.</li>
-                <br>
-                <li><h3>SYNTAGMAS SQUARE</h3><br>Is the central square of Athens. Syntagma Square is the most important square of modern Athens from both a historical and social point of view, at the heart of commercial activity and Greek politics.</li>
-             </ol>
-      </div>
-
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-      <script>
+ <script>
       // When the user scrolls down 20px from the top of the document, show the button
       window.onscroll = function() {scrollFunction()};
 
@@ -79,9 +79,8 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
-      </script>
-
-    </main> <!-- /.container -->
+ </script>
+</main> <!-- /.container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
