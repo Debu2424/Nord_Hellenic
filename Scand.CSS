@@ -38,6 +38,13 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  color: #2e86c1;
+  font-size: 30px;
+}
+
 ol li {
   background: #e2faff;
   padding: 5px;
